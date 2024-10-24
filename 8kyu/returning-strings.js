@@ -8,5 +8,5 @@ function greet(name){
   }
 
   // ПРОВЕРКА В БРАУЗЕРЕ:
-  // let a = greet("Alex")
-  // console.log(a);
+  let a = greet("Alex")
+  console.log(a);
