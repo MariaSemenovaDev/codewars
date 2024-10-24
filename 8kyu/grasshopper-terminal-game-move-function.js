@@ -9,12 +9,18 @@ function move (position, roll) {
   return  newPosition
   }
 
+//решение стрелочной функцией
+const move = (position, roll) => position + roll * 2
 
+//решение без let
+function move (position, roll) {
+  return position + roll * 2
+}
 
 
 
   // тут мои выдумки если бы кубик должен был рандомно кидаться
-  
+
 // let firstPosition = Math.ceil(Math.random() * 6)
 // let secondPosition = Math.ceil(Math.random() * 6)
 
